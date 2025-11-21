@@ -51,14 +51,6 @@ Silentscribe/
 
 ---
 
-##  How to Run
-
-```bash
-python src/predict.py
-```
-
----
-
 ##  Results
 
 * Interprets movements with high accuracy
