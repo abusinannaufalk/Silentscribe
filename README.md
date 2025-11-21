@@ -33,15 +33,20 @@ SilentScribe uses sensor data and machine learning to interpret hand/arm muscle 
 ##  Repository Structure
 
 ```
-silentscribe/
-│── sensors/
-│── src/
-│   ├── preprocess.py
-│   ├── train_model.py
-│   ├── predict.py
-│── models/
-│── notebooks/
-│── README.md
+Silentscribe/
+│
+├── README.md                 
+├── requirements.txt         
+├── setup.sh                   
+├── Procfile                  
+├── signal.csv                
+│
+├── app/                      
+│   └── app.py                 
+│
+├── src/                       
+│   └── Signal_CSV_load.py     
+
 ```
 
 ---
